@@ -1,0 +1,61 @@
+<html>
+  <head></head>
+  <body>
+    <fieldset>
+      <p>Create New Work Flow</p>
+        <label for="flow name">Flow Name:</label><br/>
+        <input type="text" name="flow name" id="flow name" placeholder="Testing Work Flow"><br/>
+          <br/>
+        <label for="Name Department:">Name Department</label><br/>
+        <select name="name Department" id="name Department">
+          <option>Engineering Maintenance</option>
+          <option>Community Affairs</option>
+          <option>Technology Services</option>
+          <option>Risk Management</option>
+        </select><br/>
+          <br/>
+        <button type="submit" name="add flow" style="background-color: green; color: white; text-align: right;">Add flow</button></br>
+          <br/>
+          <table style="width: 1000;">
+            <thead style="text-align: left;">
+              <tr>
+                <th>Step Number</th>
+                <th>Status</th>
+                <th>Author</th>
+                <th>SentBack</th>
+                <th>Check</th>
+                <th>Approve</th>
+                <th>Reject</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Awaiting Approval Supervisor</td>
+                <td>approvalsupervisor@gamil.com</td>
+                <td><input type="checkbox" name="as"></td>
+                <td><input type="checkbox" name="as"></td>
+                <td><input type="checkbox" name="sb"></td>
+                <td><input type="checkbox" name="sb"></td>
+                <td><button type="submit" name="Delete">Delete</button></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Awaiting Accepted by Head Department</td>
+                <td>approvalheaddepartment@gamil.com</td>
+                <td><input type="checkbox" name="ahd"></td>
+                <td><input type="checkbox" name="ahd"></td>
+                <td><input type="checkbox" name="ahd"></td>
+                <td><input type="checkbox" name="ahd"></td>
+                <td><button type="submit" name="Delete">Delete</button></td>
+              </tr>
+            </tbody>
+          </table>
+          <br/>
+          <button type="submit" name="back">Back</button><br/>
+          <br/>
+          <button type="submit" name="submit" style="background-color: blue; color: white;">Submit</button>
+    </fieldset>
+  </body>
+</html>
