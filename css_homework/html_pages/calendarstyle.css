@@ -1,0 +1,82 @@
+.body {
+  margin-left: 400;
+  margin-top: 100;
+  width: 556;
+  height: 368;
+  border-width: 7px;
+  border-style: solid;
+  border-radius: 3;
+  color: goldenrod;
+  }
+  
+.table {
+    text-align: center;
+    width: 556; 
+    height: 368; 
+    color: black;
+    box-shadow: 0 0 0 5px goldenrod; border-radius: 7px
+  }
+
+.font {
+  font-size: 19; height: 46; font-weight: normal;
+}
+#arrow {
+  font-size: 25; padding-right: 40; height: 46; font-weight: normal;
+  border-top-left-radius: 20;
+}
+#arrow1 {
+  font-size: 25; padding-left: 40; height: 46; font-weight: normal;
+  border-top-right-radius: 20;
+}
+
+.week { 
+  font-weight: normal; height: 40;
+}
+
+#transparent {
+  color: rgb(211, 210, 210);
+}
+
+.height {
+  height: 53;
+}
+
+.circle1{
+  margin-left: 14;
+  width: 47px;
+  line-height: 47px;
+  border-radius: 50%;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  border-color: rgb(255, 132, 152);
+  background-color: rgb(255, 132, 152);
+}
+
+
+.circle{
+  margin-left: 14;
+  width: 47px;
+  line-height: 47px;
+  border-radius: 50%;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  border:  solid (102, 179, 204);
+  background-color:rgb(102, 179, 204);
+  border-color: rgb(102, 179, 204);
+  
+}
+
+.circle2{
+  margin-left: 14;
+  width: 47px;
+  line-height: 47px;
+  border-radius: 50%;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  border-color:rgb(218, 218, 218);
+  background-color:rgb(218, 218, 218);
+}
+
