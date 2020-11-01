@@ -1,0 +1,59 @@
+.body {
+  background-color: rgb(145, 206, 212);
+}
+
+#table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border-spacing: 0px;
+  width: 750;
+  height: 500;
+  border-left: 1px solid rgb(42, 105, 118);
+  border-right: 1px solid rgb(42, 105, 118);
+  border-bottom: 1px solid rgb(42, 105, 118);
+  border-top: none;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2%;
+  }
+
+.bgcolor {
+  background-color: rgb(50, 122, 129);
+  color: white;
+  height: 50;
+  font-weight: bold;
+}
+
+.bgcolor2 {
+  background-color: rgb(218, 239, 241);
+  color: rgb(43, 104, 110);
+  height: 30;
+}
+
+#color {
+  background-color: rgb(237, 247, 248);
+  color: rgb(43, 104, 110);
+}
+
+#color3 {
+  background-color: white;
+  color: rgb(43, 104, 110);
+}
+
+.circle {
+  border-radius: 50%;
+  width: 40;
+  height: 40;
+}
+
+.txtalign {
+  text-align: left;
+  padding-left: 30;
+  width: 220;
+}
+
+#radius {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
