@@ -26,6 +26,6 @@ Okay, great but… why HTML 5 then? What are the advantages?
 JavaScript is one of the most popular programming languages in the world (first on GitHub) and that means the community and the support you can receive is unparalleled.
 Making a game that runs in a browser means that the user doesn’t have to update it, since every time they run it they are automatically using the latest version.
 And since browser nowadays get updated automatically, that means you can use everything your target browsers support without having to worry about leaving some users behind, since it simply what happen.
-Also, since it runs in a browser, the users don’t need to install any extra library or tool. Isn’t it great?
+Also, since it runs in a browser, the users don’t need to install any extra library or tool.
 
 
