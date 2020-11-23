@@ -10,7 +10,7 @@ function findPalindrome(list) {
             palindromes.push(list[i]);
         }
     }
-    console.log(palindromes);
+    return palindromes;
 }
 
 findPalindrome(list);
