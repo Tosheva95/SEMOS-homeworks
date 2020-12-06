@@ -6,14 +6,11 @@ function myFunction(array) {
   let arr = [];
   let evenStrings = str1;
   let occurencies = new Object();
-  
-  
 for (let i = 0; i < array.length; i++) {
-		if (array[i].length % 2 === 0) {
-		arr.push(array[i]);
-		}
+	if (array[i].length % 2 === 0) {
+	arr.push(array[i]);
+	}
   };
-
 for (let i = 0; i < evenStrings.length; i++) {
     if(occurencies[evenStrings[i]] != null) {
       occurencies[evenStrings[i]] += 1;
