@@ -27,11 +27,11 @@ function readLine() {
 // Complete the minimumNumber function below.
 function minimumNumber(n, password) {
     // Return the minimum number of characters to make the password strong
-var upperCaseChar=0;
-    var lowerCaseChar=0;
-    var specialChar=0;
-    var digit=0;
-    var musthaveChars=0;
+let upperCaseChar=0;
+    let lowerCaseChar=0;
+    let specialChar=0;
+    let digit=0;
+    let musthaveChars=0;
     for(let i=0; i<n; i++){
         if(password.charCodeAt(i)>=65 && password.charCodeAt(i)<=90){
             upperCaseChar++;
@@ -64,7 +64,7 @@ var upperCaseChar=0;
         musthaveChars++;
     }
     
-    var len= n+musthaveChars;
+    let len= n+musthaveChars;
     if(len<6){
         return ((6-len) + musthaveChars);
     }
