@@ -31,9 +31,9 @@ function readLine() {
 
 function gradingStudents(grades) {
     // Write your code here
-  var multipleToRoundTo = 5;
-  var numberToRoundAt = 2;
-  for(var i = 0; i < grades.length; i++) {
+  let multipleToRoundTo = 5;
+  let numberToRoundAt = 2;
+  for(let i = 0; i < grades.length; i++) {
     if(grades[i] >= 38 && grades[i] % multipleToRoundTo > numberToRoundAt) {
       grades[i] = grades[i] + (multipleToRoundTo - (grades[i] % multipleToRoundTo));
     }
