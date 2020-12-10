@@ -39,7 +39,6 @@ let upperCaseChar=0;
         else if(password.charCodeAt(i)>=97 && password.charCodeAt(i)<=122){
             lowerCaseChar++;
         }
-        
         else if(password.charAt(i)=='!' || password.charAt(i)=="@" || password.charAt(i)=="#" ||
                 password.charAt(i)=="$" || password.charAt(i)=="%" || password.charAt(i)=="^" ||
                 password.charAt(i)=="*" || password.charAt(i)=="&" || password.charAt(i)=="(" ||
@@ -50,7 +49,6 @@ let upperCaseChar=0;
             digit++;
         }    
     }
-   
     if(upperCaseChar==0){
         musthaveChars++;
     }
@@ -63,7 +61,6 @@ let upperCaseChar=0;
     if(digit==0){
         musthaveChars++;
     }
-    
     let len= n+musthaveChars;
     if(len<6){
         return ((6-len) + musthaveChars);
